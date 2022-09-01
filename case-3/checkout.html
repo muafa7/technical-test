@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./asset/style.css">
+    <link rel="stylesheet" href="./asset/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Juicy Fruity</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="./index.html">
+                JuicyFruity
+            </a>
+        </div>
+        <div class="navbar-mobile" id="drawer">
+            <div class="cart"><a href="./checkout.html"><i class="fa-solid fa-cart-shopping"></i>Cart[0]</a></div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="navbar-desktop">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <a class="cart-desktop" href="./checkout.html">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span>0</span>
+        </a>
+        <button class="nav__button" id="menu">☰</button>
+    </nav>
+
+    <div class="checkout">
+        <h2>Checkout</h2>
+        <div class="order">
+            <div class="order__review">
+                <h3>Review Order</h3>
+                <div class="order__detail">
+                    <img src="./asset/image/Juice-Bottle-Mockup-Template__2_-removebg-preview.png" alt="Juice Bottle">
+                    <div class="order__info">
+                        <h4>Grape Juice</h4>
+                        <h5>$9.95</h5>
+                    </div>
+                    <div class="order__edit">
+                        <div class="order__amount">
+                            <button>-</button>
+                            <button>1</button>
+                            <button>+</button>
+                        </div>
+                        <i class="fa-solid fa-trash-can"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="total">
+                <h3>Total</h3>
+                <div class="total__detail">
+                    <p>Subtotal<span>$9.95</span></p>
+                    <p>Tax<span>$0.9</span></p>
+                    <p>Total<span>$10.85</span></p>
+                </div>
+                <div class="total__actions">
+                    <a href="./index.html">Continue Shopping</a>
+                    <button>Checkout</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>Copyright © 2022 JuicyFruity</footer>
+    <script src="./asset/script.js"></script>
+</body>
+</html>

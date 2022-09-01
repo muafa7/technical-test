@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./asset/style.css">
+    <link rel="stylesheet" href="./asset/responsive.css">
+    <title>Juicy Fruity</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="#">
+                JuicyFruity
+            </a>
+        </div>
+        <div class="navbar-mobile" id="drawer">
+            <div class="cart"><a href="./checkout.html"><i class="fa-solid fa-cart-shopping"></i>Cart[0]</a></div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="navbar-desktop">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <a class="cart-desktop" href="./checkout.html">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span>0</span>
+        </a>
+        <button class="nav__button" id="menu">☰</button>
+    </nav>
+
+    <div class="detail">
+        <div class="item">
+            <div class="item__display">
+                <img src="./asset/image/Juice-Bottle-Mockup-Template__2_-removebg-preview.png" alt="Juice Bottle">
+                <div class="item__actions">
+                    <div class="item__amount">
+                        <button>-</button>
+                        <button>1</button>
+                        <button>+</button>
+                    </div>
+                    <button>Add [$9.95]</button>
+                </div>
+            </div>
+            <div class="item__detail">
+                <div class="item__header">
+                    <h3>Grape Juice</h3>
+                    <a href="./index.html">
+                            <i class="fa-solid fa-arrow-left"></i>
+                            <i>Back</i>
+                    </a>
+                </div>
+                <div class="item__info">
+                    <div class="item__ingredients">
+                        <h4>Ingredients</h4>
+                        <p>grape • beet • zuchini</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas autem eaque delectus iusto architecto veniam reiciendis animi excepturi amet. Ex omnis magnam optio amet ipsa quaerat, rerum adipisci et laudantium!</p>
+                    </div>
+                    <div class="item__nutritional">
+                        <h4>Nutritional Information</h4>
+                        <ul>
+                            <li>Serving Size - 8 oz (2 Servings)</li>
+                            <li>Calories - 100</li>
+                            <li>Carbs - 23g</li>
+                            <li>Natural Sugars - 20g</li>
+                            <li>Added Sugars - 0g</li>
+                            <li>Protein - 2g</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <footer>Copyright © 2022 JuicyFruity</footer>
+        <script src="./asset/script.js"></script>
+</body>
+</html>
